@@ -43,7 +43,7 @@ namespace Tyuiu.TitkovAA.Sprint4.Review.V30
             {
                 for (int j = 0; j < colums; j++)
                 {
-                    Console.Write(string.Format("{0,5}", mtrx[i, j] = int.Parse(sstr.Substring(i * colums + j, 1))));
+                    Console.Write(string.Format("{0,3}", mtrx[i, j] = int.Parse(sstr.Substring(i * colums + j, 1))));
                 }
                 Console.WriteLine();
             }
