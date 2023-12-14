@@ -37,6 +37,7 @@ namespace Tyuiu.TitkovAA.Sprint4.Review.V30
             string sstr = "684259137159648";
 
 
+
             Console.WriteLine("Массив:");
             for (int i = 0; i < rows; i++)
             {

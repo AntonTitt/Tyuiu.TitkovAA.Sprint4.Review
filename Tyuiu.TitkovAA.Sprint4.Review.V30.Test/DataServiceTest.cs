@@ -17,6 +17,7 @@ namespace Tyuiu.TitkovAA.Sprint4.Review.V30.Test
             string sstr = "684259137159648";
 
 
+
             Assert.AreEqual(73728, dt.Calculate(rows, colums, sstr));
         }
     }

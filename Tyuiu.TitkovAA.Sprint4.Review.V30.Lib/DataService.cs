@@ -25,7 +25,8 @@ namespace Tyuiu.TitkovAA.Sprint4.Review.V30.Lib
                 {
                     if (mtrx[i, j] % 2 == 0)
                     {
-                        c *= mtrx[i, j];
+                        c *= mtrx[i, j]
+                            ;
                     }
                 }
             }
